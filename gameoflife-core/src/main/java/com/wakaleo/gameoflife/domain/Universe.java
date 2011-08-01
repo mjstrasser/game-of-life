@@ -62,7 +62,6 @@ public class Universe {
             }            
             nextGenerationContent.append(NEW_LINE);
         }
-        nextGenerationContent.append(NEW_LINE);
         currentGridContent = new Grid(nextGenerationContent.toString());
     }
 
